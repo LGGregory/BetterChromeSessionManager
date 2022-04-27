@@ -17,7 +17,7 @@ Maybe some improvements based on other modern Chrome session managers.
 
 ## Notes
 
-Not everything that Opera allowed access to can be access in through Chrome's Web Extension api. 
+Not everything that Opera allowed access to can be accessed through Chrome's Web Extension api. 
 
 Nearly everything that can still be accessed is much harder.
 

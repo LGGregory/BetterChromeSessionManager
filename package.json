@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "concurrently \"rollup -c \" \"cd popup && rollup -c \"",
+    "dev": "concurrently \"rollup -c -w \" \"cd popup && rollup -c -w\"",
     "start": "sirv public --no-clear"
   },
   "devDependencies": {
@@ -12,6 +12,7 @@
     "@rollup/plugin-node-resolve": "^11.2.1",
     "concurrently": "^7.1.0",
     "rollup": "^2.70.2",
+    "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.1.0",
