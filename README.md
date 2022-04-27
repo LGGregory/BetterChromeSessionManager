@@ -22,3 +22,5 @@ Not everything that Opera allowed access to can be accessed through Chrome's Web
 Nearly everything that can still be accessed is much harder.
 
 This is my first real project, so expect slopiness.
+
+I have no eye for aesthetics, so expect programmer graphics.
